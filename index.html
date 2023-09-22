@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>CCXP22</title>
+</head>
+<body>
+    
+    <header>
+        <img width="120px" id="logo" src="Image/logoccxp.svg" alt="">
+    </header>
+    
+    <section>
+        <div id="conteudo">
+            <h1>
+                REVIVA O ÉPICO
+            </h1>
+
+            <h2>
+                DE 01 A 04 DE DEZEMBRO
+            </h2>
+
+            <p>
+                Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.
+            </p>
+        </div>
+
+        <div id="timer-video">    
+            <div class="timer">
+        <div>
+            <h1 id="meses">00</h1>
+            <p>Meses</p>
+        </div>
+        <div>
+            <h1 id="dias">00</h1>
+            <p>Dias</p>
+        </div>
+        <div>
+            <h1 id="horas">00</h1>
+            <p>Horas</p>
+        </div>
+        <div>
+            <h1 id="minutos">00</h1>
+            <p>Minutos</p>
+        </div>
+        <div>
+            <h1 id="segundos">00</h1>
+            <p>Segundos</p>
+        </div>
+    </div>
+            
+            <h2 id="conteudo-timer"> 
+                PARA A MAIOR CCXP DE TODOS OS TEMPOS
+            </h2>
+            
+            <div>
+                <video id="video" width="700px" controls loop src="Image/Arlequina.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div id="ingressos">
+
+            <h2>
+                AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!
+            </h2>
+            
+            <img id="quinta" onmouseout="highlightCard('#quinta')" onmouseover="highlightCard('#quinta')" src="Image/ingressoQuinta.svg" alt="">
+            <img id="sexta" onmouseout="highlightCard('#sexta')" onmouseover="highlightCard('#sexta')" src="Image/ingressoSexta.svg" alt="">
+            <img id="sabado" onmouseout="highlightCard('#sabado')" onmouseover="highlightCard('#sabado')" src="Image/ingressoSabado.svg" alt="">
+            <img id="domingo" onmouseout="highlightCard('#domingo')" onmouseover="highlightCard('#domingo')" src="Image/ingressoDomingo.svg" alt="">
+
+        </div>    
+        <div>
+            <button><b>GARANTA O SEU!</b></button>
+        </div>  
+    </footer>
+    
+
+<script src="main.js"></script>
+</body>
+</html>
